@@ -1,0 +1,19 @@
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
+TRNT_FILE_POST_CHNL = int(os.getenv("TRNT_FILE_POST_CHNL", "-100xxxxxxxxxx"))
+
+TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.prof")
+TBL_URL = os.getenv("TBL_URL", "https://www.1tamilblasters.moi")
+
+BOT_TAG = os.getenv("BOT_TAG", "@botname")
+
+PORT = int(os.getenv("PORT", "8000"))
+
+CHECK_DELAY = int(os.getenv("CHECK_DELAY", "900"))
+
+TMV_TORRENT_THUMB = os.getenv(
+    "TMV_TORRENT_THUMB",
+    "https://i.ibb.co/7dq7mMLp/photo-2025-10"
+)
