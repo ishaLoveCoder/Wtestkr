@@ -408,3 +408,8 @@ def run_bot():
     threading.Thread(target=scheduler, daemon=True).start()
     print("✅ Torrent Bot Started")
     bot.infinity_polling(skip_pending=True)
+
+
+class TorrentBot:
+    def run(self):
+        run_bot()
