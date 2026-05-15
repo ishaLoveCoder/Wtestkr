@@ -2,6 +2,14 @@ import os
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
+# Admin IDs — env se load karo, comma separated
+# Example env: ADMIN_IDS=123456789,987654321
+ADMIN_IDS = [
+    int(x.strip())
+    for x in os.getenv("ADMIN_IDS", "123456789").split(",")
+    if x.strip().isdigit()
+]
+
 TRNT_FILE_POST_CHNL = int(os.getenv("TRNT_FILE_POST_CHNL", "-100xxxxxxxxxx"))
 
 TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.prof")
