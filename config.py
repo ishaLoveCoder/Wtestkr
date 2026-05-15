@@ -12,8 +12,8 @@ ADMIN_IDS = [
 
 TRNT_FILE_POST_CHNL = int(os.getenv("TRNT_FILE_POST_CHNL", "-100xxxxxxxxxx"))
 
-TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.prof")
-TBL_URL = os.getenv("TBL_URL", "https://www.1tamilblasters.moi")
+TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.futbol")
+TBL_URL = os.getenv("TBL_URL", "https://www.1tamilblasters.garden")
 
 BOT_TAG = os.getenv("BOT_TAG", "@botname")
 
