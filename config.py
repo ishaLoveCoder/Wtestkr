@@ -23,5 +23,5 @@ CHECK_DELAY = int(os.getenv("CHECK_DELAY", "900"))
 
 TMV_TORRENT_THUMB = os.getenv(
     "TMV_TORRENT_THUMB",
-    "https://i.ibb.co/7dq7mMLp/photo-2025-10"
+    "https://graph.org/file/652a657bc828fe3fb85dd.jpg"
 )
